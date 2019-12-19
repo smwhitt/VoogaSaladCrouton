@@ -1,0 +1,92 @@
+<map>
+  <entry>
+    <int>0</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>0</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Resource>
+          <owner>0</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>value</string>
+            </a>
+          </fields>
+          <value>2</value>
+        </voogasalad.gameEngine.components.Resource>
+        <voogasalad.gameEngine.components.Type>
+          <owner>0</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Resources</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>0</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>1</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>1</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Health>
+          <owner>1</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>health</string>
+            </a>
+          </fields>
+          <health>1</health>
+        </voogasalad.gameEngine.components.Health>
+        <voogasalad.gameEngine.components.Image>
+          <owner>1</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>-1</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Location>
+          <owner>1</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>-1.0</x>
+          <y>-1.0</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>1</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Tower</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>1</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+</map>

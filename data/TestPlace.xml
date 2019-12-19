@@ -1,0 +1,2377 @@
+<map>
+  <entry>
+    <int>0</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>0</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Speed>
+          <owner>0</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>speed</string>
+            </a>
+          </fields>
+          <speed>40</speed>
+        </voogasalad.gameEngine.components.Speed>
+        <voogasalad.gameEngine.components.Health>
+          <owner>0</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>health</string>
+            </a>
+          </fields>
+          <health>30</health>
+        </voogasalad.gameEngine.components.Health>
+        <voogasalad.gameEngine.components.Resource>
+          <owner>0</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>value</string>
+            </a>
+          </fields>
+          <value>3</value>
+        </voogasalad.gameEngine.components.Resource>
+        <voogasalad.gameEngine.components.Title>
+          <owner>0</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>name</string>
+            </a>
+          </fields>
+          <title>fucker</title>
+        </voogasalad.gameEngine.components.Title>
+        <voogasalad.gameEngine.components.Image>
+          <owner>0</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton\src\voogasalad\view\authoringEnvironment\resources\images\enemies\heart.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Damage>
+          <owner>0</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>damage</string>
+            </a>
+          </fields>
+          <inflictDamage>3</inflictDamage>
+        </voogasalad.gameEngine.components.Damage>
+        <voogasalad.gameEngine.components.Type>
+          <owner>0</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Minion</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>0</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>1</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>1</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>1</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>1</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>1</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>1</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>1</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>587.52</x>
+          <y>587.52</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>1</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>1</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>2</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>2</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>2</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>2</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>2</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>2</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>2</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>293.76</x>
+          <y>293.76</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>2</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>2</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>3</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>3</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>3</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>accessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>3</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>3</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton/src/voogasalad/view/authoringEnvironment/resources/images/arrows/arrow_left.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>3</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>270.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>3</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>146.88</x>
+          <y>146.88</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>3</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>3</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>4</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>4</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>4</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>accessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>4</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>4</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton/src/voogasalad/view/authoringEnvironment/resources/images/arrows/arrow_left.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>4</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>270.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>4</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>440.64</x>
+          <y>146.88</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>4</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>4</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>5</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>5</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>5</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>5</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>5</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>5</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>5</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>0.0</x>
+          <y>0.0</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>5</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>5</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>6</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>6</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>6</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>6</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>6</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>6</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>6</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>293.76</x>
+          <y>0.0</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>6</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>6</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>7</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>7</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>7</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>7</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>7</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>7</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>7</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>0.0</x>
+          <y>587.52</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>7</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>7</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>8</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>8</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>8</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>8</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>8</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>8</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>8</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>293.76</x>
+          <y>587.52</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>8</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>8</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>9</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>9</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>9</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>9</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>9</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>9</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>9</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>146.88</x>
+          <y>293.76</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>9</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>9</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>10</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>10</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>10</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>accessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>10</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>10</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton/src/voogasalad/view/authoringEnvironment/resources/images/arrows/arrow_right.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>10</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>90.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>10</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>146.88</x>
+          <y>440.64</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>10</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>10</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>11</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>11</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>11</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>11</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>11</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>11</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>11</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>587.52</x>
+          <y>0.0</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>11</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>11</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>12</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>12</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>12</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>12</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>12</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>12</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>12</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>146.88</x>
+          <y>587.52</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>12</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>12</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>13</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>13</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>13</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>accessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>13</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>13</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton/src/voogasalad/view/authoringEnvironment/resources/images/arrows/arrow_left.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>13</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>270.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>13</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>587.52</x>
+          <y>146.88</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>13</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>13</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>14</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>14</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>14</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>14</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>14</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>14</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>14</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>440.64</x>
+          <y>587.52</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>14</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>14</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>15</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>15</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>15</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>accessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>15</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>15</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton/src/voogasalad/view/authoringEnvironment/resources/images/arrows/arrow_right.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>15</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>90.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>15</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>293.76</x>
+          <y>440.64</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>15</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>15</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>16</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>16</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>16</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>accessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>16</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>16</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton/src/voogasalad/view/authoringEnvironment/resources/images/arrows/arrow_right.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>16</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>90.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>16</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>440.64</x>
+          <y>440.64</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>16</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>16</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>17</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>17</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>17</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>start</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>17</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>17</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton/src/voogasalad/view/authoringEnvironment/resources/images/SpawnPoint1.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>17</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>0.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>17</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>0.0</x>
+          <y>146.88</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>17</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>17</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>18</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>18</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>18</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>18</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>18</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>18</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>18</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>440.64</x>
+          <y>0.0</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>18</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>18</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>19</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>19</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>19</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>accessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>19</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>19</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton/src/voogasalad/view/authoringEnvironment/resources/images/arrows/arrow_up.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>19</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>0.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>19</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>587.52</x>
+          <y>293.76</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>19</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>19</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>20</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>20</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>20</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>accessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>20</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>20</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton/src/voogasalad/view/authoringEnvironment/resources/images/arrows/arrow_left.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>20</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>270.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>20</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>293.76</x>
+          <y>146.88</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>20</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>20</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>21</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>21</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>21</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>accessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>21</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>21</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton/src/voogasalad/view/authoringEnvironment/resources/images/arrows/arrow_up.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>21</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>0.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>21</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>587.52</x>
+          <y>440.64</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>21</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>21</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>22</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>22</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>22</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>22</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>22</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>22</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>22</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>440.64</x>
+          <y>293.76</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>22</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>22</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>23</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>23</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>23</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>start</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>23</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>23</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton/src/voogasalad/view/authoringEnvironment/resources/images/SpawnPoint1.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>23</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>0.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>23</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>0.0</x>
+          <y>440.64</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>23</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>23</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>24</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>24</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>24</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>24</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>24</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>24</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>24</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>146.88</x>
+          <y>0.0</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>24</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>24</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>25</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>25</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Path>
+          <owner>25</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>path</string>
+            </a>
+          </fields>
+          <pathType>inaccessible</pathType>
+        </voogasalad.gameEngine.components.Path>
+        <voogasalad.gameEngine.components.Collision>
+          <owner>25</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>width</string>
+              <string>height</string>
+            </a>
+          </fields>
+          <width>146.88</width>
+          <height>146.88</height>
+        </voogasalad.gameEngine.components.Collision>
+        <voogasalad.gameEngine.components.Image>
+          <owner>25</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>null</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Angle>
+          <owner>25</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>angle</string>
+            </a>
+          </fields>
+          <angle>-1.0</angle>
+        </voogasalad.gameEngine.components.Angle>
+        <voogasalad.gameEngine.components.Location>
+          <owner>25</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>0.0</x>
+          <y>293.76</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>25</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Path</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>25</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>26</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>26</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.GameMap>
+          <owner>26</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>paths</string>
+            </a>
+          </fields>
+          <pathIDs>
+            <int>1</int>
+            <int>2</int>
+            <int>3</int>
+            <int>4</int>
+            <int>5</int>
+            <int>6</int>
+            <int>7</int>
+            <int>8</int>
+            <int>9</int>
+            <int>10</int>
+            <int>11</int>
+            <int>12</int>
+            <int>13</int>
+            <int>14</int>
+            <int>15</int>
+            <int>16</int>
+            <int>17</int>
+            <int>18</int>
+            <int>19</int>
+            <int>20</int>
+            <int>21</int>
+            <int>22</int>
+            <int>23</int>
+            <int>24</int>
+            <int>25</int>
+          </pathIDs>
+        </voogasalad.gameEngine.components.GameMap>
+        <voogasalad.gameEngine.components.Type>
+          <owner>26</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Map</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>26</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>27</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>27</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Health>
+          <owner>27</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>health</string>
+            </a>
+          </fields>
+          <health>1</health>
+        </voogasalad.gameEngine.components.Health>
+        <voogasalad.gameEngine.components.Title>
+          <owner>27</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>name</string>
+            </a>
+          </fields>
+          <title>1</title>
+        </voogasalad.gameEngine.components.Title>
+        <voogasalad.gameEngine.components.Image>
+          <owner>27</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton\src\voogasalad\view\authoringEnvironment\resources\images\projectiles\dart.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Damage>
+          <owner>27</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>damage</string>
+            </a>
+          </fields>
+          <inflictDamage>230</inflictDamage>
+        </voogasalad.gameEngine.components.Damage>
+        <voogasalad.gameEngine.components.Type>
+          <owner>27</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Projectile</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>27</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>28</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>28</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Title>
+          <owner>28</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>name</string>
+            </a>
+          </fields>
+          <title>fucker2</title>
+        </voogasalad.gameEngine.components.Title>
+        <voogasalad.gameEngine.components.Image>
+          <owner>28</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>C:\Users\huiza\CS308\Projects\voogasalad_crouton\src\voogasalad\view\authoringEnvironment\resources\images\defense\magic_mokey_w-removebg-preview.png</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Cost>
+          <owner>28</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>cost</string>
+            </a>
+          </fields>
+          <cost>30</cost>
+        </voogasalad.gameEngine.components.Cost>
+        <voogasalad.gameEngine.components.Upgrade>
+          <owner>28</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>upgradecost</string>
+              <string>upgradequantity</string>
+            </a>
+          </fields>
+          <upgradecost>1</upgradecost>
+          <upgradeincrement>10</upgradeincrement>
+        </voogasalad.gameEngine.components.Upgrade>
+        <voogasalad.gameEngine.components.Spawner>
+          <owner>28</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>spawnentity</string>
+              <string>frequency</string>
+            </a>
+          </fields>
+          <frequency>100.0</frequency>
+          <spawnentity>27</spawnentity>
+        </voogasalad.gameEngine.components.Spawner>
+        <voogasalad.gameEngine.components.Type>
+          <owner>28</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Defense</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>28</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>29</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>29</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Spawner>
+          <owner>29</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>spawnentity</string>
+              <string>frequency</string>
+            </a>
+          </fields>
+          <frequency>1.0</frequency>
+          <spawnentity>0</spawnentity>
+        </voogasalad.gameEngine.components.Spawner>
+        <voogasalad.gameEngine.components.SpawnerLimit>
+          <owner>29</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>spawnerlimit</string>
+            </a>
+          </fields>
+          <numberspawn>30</numberspawn>
+        </voogasalad.gameEngine.components.SpawnerLimit>
+        <voogasalad.gameEngine.components.Location>
+          <owner>29</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>-1.0</x>
+          <y>-1.0</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>29</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>SpawnPoint</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>29</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>30</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>30</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Health>
+          <owner>30</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>health</string>
+            </a>
+          </fields>
+          <health>500</health>
+        </voogasalad.gameEngine.components.Health>
+        <voogasalad.gameEngine.components.Image>
+          <owner>30</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>image</string>
+            </a>
+          </fields>
+          <imagePath>-1</imagePath>
+        </voogasalad.gameEngine.components.Image>
+        <voogasalad.gameEngine.components.Location>
+          <owner>30</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>x</string>
+              <string>y</string>
+            </a>
+          </fields>
+          <x>-1.0</x>
+          <y>-1.0</y>
+        </voogasalad.gameEngine.components.Location>
+        <voogasalad.gameEngine.components.Type>
+          <owner>30</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Tower</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>30</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>31</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>31</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Type>
+          <owner>31</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Levels</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>31</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>32</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>32</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Resource>
+          <owner>32</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>value</string>
+            </a>
+          </fields>
+          <value>800</value>
+        </voogasalad.gameEngine.components.Resource>
+        <voogasalad.gameEngine.components.Type>
+          <owner>32</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Resources</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>32</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+  <entry>
+    <int>33</int>
+    <voogasalad.gameEngine.Entity>
+      <myEntityID>33</myEntityID>
+      <myComponents>
+        <voogasalad.gameEngine.components.Title>
+          <owner>33</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>name</string>
+            </a>
+          </fields>
+          <title>TestPlace</title>
+        </voogasalad.gameEngine.components.Title>
+        <voogasalad.gameEngine.components.Game>
+          <owner>33</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>resourceid</string>
+              <string>levelids</string>
+            </a>
+          </fields>
+          <paused>true</paused>
+          <levelids>
+            <int>29</int>
+          </levelids>
+          <resourceid>32</resourceid>
+        </voogasalad.gameEngine.components.Game>
+        <voogasalad.gameEngine.components.Type>
+          <owner>33</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>type</string>
+            </a>
+          </fields>
+          <type>Game</type>
+        </voogasalad.gameEngine.components.Type>
+        <voogasalad.gameEngine.components.ActiveStatus>
+          <owner>33</owner>
+          <fields class="java.util.Arrays$ArrayList">
+            <a class="string-array">
+              <string>activestatus</string>
+            </a>
+          </fields>
+          <activestatus>false</activestatus>
+        </voogasalad.gameEngine.components.ActiveStatus>
+      </myComponents>
+    </voogasalad.gameEngine.Entity>
+  </entry>
+</map>

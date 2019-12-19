@@ -1,0 +1,12 @@
+<voogasalad.gameEngine.FinalGame>
+    <himinion>
+        <health>5</health>
+        <speed>800</speed>
+    </himinion>
+    <hipath>
+        <myMap>
+            <voogasalad.gameEngine.PathSquare/>
+            <voogasalad.gameEngine.PathSquare/>
+        </myMap>
+    </hipath>
+</voogasalad.gameEngine.FinalGame>

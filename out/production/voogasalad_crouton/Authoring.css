@@ -1,0 +1,49 @@
+.root{
+    highlightColor: ghostwhite;
+    tileColor: white;
+    shadowColor: darkslategray;
+}
+#authoringTile{
+    -fx-stroke: black;
+}
+#authoringTile:hover{
+    -fx-effect: innershadow(gaussian,shadowColor,10,1,-3,-3);
+}
+#gameTile{
+    -fx-stroke: black;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.label{
+    -fx-font-size: 12pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+}
+
+.button {
+    -fx-text-fill: #006464;
+    -fx-font-family: Courier New;
+    -fx-background-color: #ccccff;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 4;
+}
+
+.button:hover {
+    -fx-background-color: #ccffff;
+}
+
+.text-field{
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+}
+
+.check-box{
+    -fx-font-size: 10pt;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-text-fill: black;
+}
